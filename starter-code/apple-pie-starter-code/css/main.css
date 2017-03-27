@@ -1,0 +1,121 @@
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+
+
+body{
+    background: rgb(244, 248, 249);
+    font-size: 18px;
+    width: 1000px;
+}
+
+.content{
+  background-color: yellow;
+  font-family: sans-serif;
+  font: 'OpenSans';
+  font-size: 18px;
+}
+.photo{
+    position: static;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo img{
+
+    vertical-align:super;
+    align-content: center;
+
+}
+
+.applepies{
+      position: relative;
+      color: black;
+      width: 1000px;
+      font-style: normal;
+      font-size: 60px;
+      text-align: center;
+
+      left: -700px;
+
+}
+
+.applepies p{
+  width: 400px;
+  color: white;
+}
+
+.text {
+    position: static;
+    left:50px;
+    background: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(225, 232, 237);
+    padding-top: 25px;
+    padding-right:100px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    width: 800px;
+    text-align: left;
+    font-variant: small-caps;
+
+}
+
+.text img{
+  position: relative;
+  left: 200px;
+}
+
+.ingredients{
+    position: static;
+    left:50px;
+    background: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(225, 232, 237);
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    width: 800px;
+    border-bottom: 1px black;
+
+}
+
+.ingredients img{
+  position: relative;
+  left: 200px;
+}
+
+.directions{
+  position: static;
+  left:50px;
+  background: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(225, 232, 237);
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 0px;
+  padding-left: 100px;
+  width: 800px;
+  text-align: left;;
+  font-variant: small-caps;
+
+}

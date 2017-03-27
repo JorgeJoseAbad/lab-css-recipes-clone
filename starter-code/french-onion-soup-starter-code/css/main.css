@@ -7,3 +7,61 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body{
+  background-color: #F1F6FA;
+}
+
+.photo-container{
+  width: 800px;
+  height: 600px;
+  color: white;
+}
+
+.photo{
+  width:800px;
+  height:600px;
+}
+
+.photo-text{
+  position: relative;
+  font-size: 40px;
+  width: 400px;
+  top: -350px;
+  height: auto;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.text-container{
+  width: 660px;
+  margin-top: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.intro{
+  width: inherit;
+  margin-bottom: 20px;
+}
+
+.intro img{
+  width: 400px;
+  margin-left: 120px;
+}
+
+.recipe{
+  width: inherit;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+
+}
+
+.directions{
+  text-align: justify;
+}
+
+.directions img{
+  width: 400px;
+  margin-left: 120px;
+}
